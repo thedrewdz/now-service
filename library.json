@@ -1,0 +1,12 @@
+{
+  "name": "NowService",
+  "version": "0.1.0",
+  "description": "Encapsulated peer-to-peer ESP-NOW communication service",
+  "keywords": ["esp-now", "esp32", "wireless"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/you/espnow-service.git"
+  },
+  "frameworks": ["arduino", "espidf"],
+  "platforms": ["espressif32"]
+}
