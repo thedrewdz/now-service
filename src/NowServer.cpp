@@ -1,4 +1,3 @@
-#include <ArduinoJson.h>
 #include <Helpers.h>
 #include "esp_now.h"
 
