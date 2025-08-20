@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 
-extern const int DEBUG_LEVEL;
+extern const int NOW_DEBUG_LEVEL;
 
 void printDebug(const String &info, int level = 0);
 

@@ -1,9 +1,9 @@
 #include "NowDebug.h"
 
-const int DEBUG_LEVEL = 0;
+const int NOW_DEBUG_LEVEL = -1;
 
 void printDebug(const String &info, int level)
 {
-    if (level > DEBUG_LEVEL) return;
+    if (level > NOW_DEBUG_LEVEL) return;
     Serial.println(info);
 }
